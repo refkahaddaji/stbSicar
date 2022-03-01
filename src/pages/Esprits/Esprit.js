@@ -8,15 +8,28 @@ import background2 from "../../images/Background2.png";
 
 const Esprit = () => {
   return (
-    <div>
+    <div className="esprit">
       <section className="section1">
-        <img src={esprit} alt="" />
-        <div className="bloc-es">
-          <h1 className="title-es">UN ÉTAT D'ESPRIT</h1>
-          <h3 className="h3--es">
-            " Nous plaçons la confiance comme valeur fondamentale d’un
-            partenariat gagnant "
-          </h3>
+        <h2>UN ÉTAT D'ESPRIT</h2>
+
+        {/*  */}
+        <div className="about-hp">
+          <div className="about-hp-content">
+            <h1>BIENVENU SUR STB SICAR</h1>
+            <p className="desc ">
+              La STB SICAR, filiale de la STB BANK, a été créée le 23 mars 1998.
+              C'est une société d’investissement à capital risque qui a pour
+              objectif la participation, pour son propre compte ou pour le
+              compte de bailleurs de fonds au renforcement des opportunités
+              d’investissement et des fonds propres des entreprises. Elle permet
+              de procurer aux entreprises les fonds nécessaires à leur
+              développement et à leur croissance avec obligation de sortie.
+            </p>
+            <a href="about.html" className="btn btn-primary">
+              Learn More
+            </a>
+          </div>
+          <img src={esprit} alt="" />
         </div>
       </section>
       <section className="Par-in">

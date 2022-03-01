@@ -13,12 +13,36 @@
   /* justify-content: center; */
 }
 .connaitre-banner-title {
-  background-color: #c8bdf142;
+  /* background-color: #c8bdf142; */
   padding: 30px 50px;
   border-radius: 15px;
   color: rgb(85, 75, 88);
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
   letter-spacing: 4px;
   line-height: 30px;
+  width: 30%;
+}
+.connaitre-banner-title h1 {
+  font-size: 40px;
+}
+/************************/
+
+/*** **************************SECTION 3 :  ABOUT US *************************/
+.esprit .about-hp {
+  /* margin-top: -60px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+
+  background-color: #f1f1f163;
+}
+.esprit .about-hp-content {
+  width: 560px;
+}
+.esprit .img1-hp {
+  width: 30%;
+  border-radius: 50%;
 }
