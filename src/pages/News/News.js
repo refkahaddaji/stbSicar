@@ -36,7 +36,7 @@ const News = () => {
           <div class="div2 shadow-2">
             <div class="container mt-5">
               <div class="post-about mb-4">
-                <h2>CodePen</h2>
+                <h2>Post Title</h2>
                 <div>
                   <span class="post-tag">Bootstrap</span>
                 </div>
@@ -49,7 +49,7 @@ const News = () => {
               </div>
               {/* POST 2 */}
               <div class="post-about mb-4">
-                <h2>CodePen</h2>
+                <h2>Post Title</h2>
                 <div>
                   <span class="post-tag">Bootstrap</span>
                 </div>
