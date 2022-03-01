@@ -35,7 +35,7 @@ const Homepage = () => {
         <div className="banner">
           <span className="banner-title">
             <span>Let's make your life happier</span>
-            <h1>Healthy Living</h1>
+            <h1>BANQUE STB</h1>
           </span>
         </div>
       </section>
