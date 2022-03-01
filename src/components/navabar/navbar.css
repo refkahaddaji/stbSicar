@@ -35,14 +35,12 @@
 .nav > .nav-header > .nav-title img {
   width: 180px;
   transition: all 0.3s ease-in;
-
 }
 .nav > .nav-header > .nav-title-on img {
   width: 160px;
   height: 70px;
   margin-top: 5px;
   transition: all 0.3s ease-in;
-
 }
 .nav > .nav-btn {
   display: none;
@@ -76,6 +74,8 @@
     position: absolute;
     right: 0px;
     top: 0px;
+    /* color: black; */
+    background-color: #216dca83;
   }
   .nav > .nav-btn > label {
     display: inline-block;
