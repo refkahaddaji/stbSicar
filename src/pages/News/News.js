@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 
 const News = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [actuality, setActuality] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:1337/api/actualities", {
+      method: "GET",
+      headers: {
+        Accept: "Application.json",
+      },
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        setActuality(res);
+        setIsLoading(false);
+      });
+  }, []);
+  // console.log(actuality);
   return (
     <>
+      {/* MAPPING */}
+
       {/* BANNER */}
       <div>
         {" "}

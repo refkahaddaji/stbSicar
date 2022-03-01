@@ -6,7 +6,7 @@ import "./Res.css";
 
 const ResponsabilitéSocial = () => {
   return (
-    <div>
+    <div className="respsoc">
       <section className="Par-in">
         <div className="img-desc">
           <div className="desc-">
