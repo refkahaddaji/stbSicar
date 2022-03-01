@@ -60,7 +60,7 @@ h1 {
   bottom: -370px;
   right: 0;
 } */
-.banner {
+.hp .banner {
   background-image: url(../../../public/images/TorAugust6.png);
   background-color: #c8bdf142;
 
@@ -71,7 +71,7 @@ h1 {
   /* justify-content: center; */
   padding-left: 20px;
 }
-.banner-title {
+.hp .banner-title {
   /* background-color: #c8bdf142; */
   padding: 30px 50px;
   border-radius: 15px;
@@ -83,7 +83,7 @@ h1 {
 }
 
 /*** **************************SECTION 3 :  ABOUT US *************************/
-.about-hp {
+.hp .about-hp {
   /* margin-top: -60px; */
   display: flex;
   flex-direction: row;
@@ -93,16 +93,16 @@ h1 {
 
   background-color: #f1f1f163;
 }
-.about-hp-content {
+.hp .about-hp-content {
   width: 560px;
 }
-.img1-hp {
+.hp .img1-hp {
   width: 50%;
   border-radius: 50%;
 }
 /****************SECTION 3******************/
 /*** SECTION 2 :  OUR SERVICES ***/
-.section-3 {
+.hp .section-3 {
   background-image: url(../../../public/images/background-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +110,7 @@ h1 {
   /* padding: 30px 10px 60px 10px; */
 }
 
-.box-container {
+.hp .box-container {
   /* height: 140px; */
   width: 1000px;
   margin: auto;
@@ -123,7 +123,7 @@ h1 {
   justify-content: space-around;
   /* background: rgb(241, 241, 241); */
 }
-.card-service {
+.hp .card-service {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -139,7 +139,7 @@ h1 {
   gap: 10px;
 }
 
-.inside-service-card {
+.hp .inside-service-card {
   flex-shrink: 0;
   padding: 0;
   width: 60px;
@@ -152,10 +152,10 @@ h1 {
   margin-right: 15px;
 }
 
-.circle {
+.hp .circle {
   background-color: #84ace4;
 }
-.card-service:hover {
+.hp .card-service:hover {
   background-color: #eff3f893;
 
   transition: all 0.5s;
@@ -177,7 +177,7 @@ h1 {
   font-size: 1em;
 } */
 
-.timeline {
+.hp .timeline {
   display: flex;
   flex-direction: column;
   margin: 20px auto;
@@ -188,7 +188,7 @@ h1 {
   padding-left: 200px;
   padding-bottom: 50px;
 }
-.timeline .card-content {
+.hp .timeline .card-content {
   /* background-color: aquamarine; */
   display: flex;
   column-gap: 50px;
@@ -197,7 +197,7 @@ h1 {
   border-radius: 15px;
   flex-wrap: wrap;
 }
-.timeline .card-content .left p {
+.hp .timeline .card-content .left p {
   font-size: 16px;
   line-height: 1.4;
   text-transform: uppercase;
@@ -214,7 +214,7 @@ h1 {
 
 } */
 
-.timeline .card-content .right {
+.hp .timeline .card-content .right {
   background-color: #84ace4;
   width: 100%;
   flex: 1;
@@ -226,20 +226,20 @@ h1 {
   color: white;
 }
 
-.timeline .next-icon {
+.hp .timeline .next-icon {
   margin-left: 1100px;
   font-size: 26px;
   color: #283649;
   margin-top: 15px;
   cursor: pointer;
 }
-.timeline .next-icon:hover {
+.hp .timeline .next-icon:hover {
   transition: all 0.5s;
   transform: translateY(-10px);
 }
 
 @media (max-width: 600px) {
-  .timeline .card-content {
+  .hp .timeline .card-content {
     margin: 0;
   }
 }

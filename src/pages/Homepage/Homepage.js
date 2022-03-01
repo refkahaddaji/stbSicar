@@ -16,7 +16,7 @@ import vect2 from "./hp-vect2.png";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="hp">
       {/* <div class="background"></div>
       <div class="background-texture"></div>
       <header class="header">
@@ -182,7 +182,7 @@ const Homepage = () => {
             </div>
           </div>
           {/* <Tooltip title="Delete"> */}
-            <FcNext className="next-icon" />
+          <FcNext className="next-icon" />
           {/* </Tooltip> */}
         </div>
       </section>
