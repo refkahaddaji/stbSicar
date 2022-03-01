@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import NosFonds from './pages/NosFonds';
 import Presentation  from './components/Presentation'
-import News from './pages/News';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="nosfonds" element={<NosFonds />} />
         <Route path="presentation" element={<Presentation />} />
-        <Route path="news" element={<News />} />
    
     </Routes>
 
