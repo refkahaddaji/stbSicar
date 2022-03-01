@@ -34,12 +34,14 @@ const Homepage = () => {
       <section className="section-1">
         <div className="banner">
           <span className="banner-title">
+
             <h1>Societe d'Investissement a Capital Risque</h1>
 
             <span>
               Fondée en 1998. Filiale du groupe STB. Spécialisée dans le private
               equity.
             </span>
+
           </span>
         </div>
       </section>
@@ -196,7 +198,7 @@ const Homepage = () => {
         <hr class="section-break-5" />
       </div>
       <section className="section-5"></section>
-   
+
     </div>
   );
 };
