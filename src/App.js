@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import NosFonds from './pages/NosFonds';
 import Presentation  from './components/Presentation'
 import News from './pages/News';
+import HomeNews from './components/HomeNews';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="nosfonds" element={<NosFonds />} />
         <Route path="presentation" element={<Presentation />} />
         <Route path="news" element={<News />} />
+        <Route path="homeNews" element={<HomeNews />} />
    
     </Routes>
 
