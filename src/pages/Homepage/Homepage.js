@@ -34,8 +34,12 @@ const Homepage = () => {
       <section className="section-1">
         <div className="banner">
           <span className="banner-title">
-            <span>Let's make your life happier</span>
-            <h1>BANQUE STB</h1>
+            <h1>Societe d'Investissement a Capital Risque</h1>
+
+            <span>
+              Fondée en 1998. Filiale du groupe STB. Spécialisée dans le private
+              equity.
+            </span>
           </span>
         </div>
       </section>
@@ -46,7 +50,7 @@ const Homepage = () => {
       <section className="section-2">
         <div className="about-hp">
           <div className="about-hp-content">
-            <h1>BIENVENU SUR STB SICAR</h1>
+            <h1>BIENVENUE SUR STB SICAR</h1>
             <p className="desc ">
               La STB SICAR, filiale de la STB BANK, a été créée le 23 mars 1998.
               C'est une société d’investissement à capital risque qui a pour
@@ -192,7 +196,7 @@ const Homepage = () => {
         <hr class="section-break-5" />
       </div>
       <section className="section-5"></section>
-     
+      
     </div>
   );
 };

@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 
 const News = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [actuality, setActuality] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:1337/api/actualities", {
+      method: "GET",
+      headers: {
+        Accept: "Application.json",
+      },
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        setActuality(res);
+        setIsLoading(false);
+      });
+  }, []);
+  // console.log(actuality);
   return (
     <>
+      {/* MAPPING */}
+
       {/* BANNER */}
       <div>
         {" "}
@@ -36,7 +55,7 @@ const News = () => {
           <div class="div2 shadow-2">
             <div class="container mt-5">
               <div class="post-about mb-4">
-                <h2>CodePen</h2>
+                <h2>Post Title</h2>
                 <div>
                   <span class="post-tag">Bootstrap</span>
                 </div>
@@ -49,7 +68,7 @@ const News = () => {
               </div>
               {/* POST 2 */}
               <div class="post-about mb-4">
-                <h2>CodePen</h2>
+                <h2>Post Title</h2>
                 <div>
                   <span class="post-tag">Bootstrap</span>
                 </div>

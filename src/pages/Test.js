@@ -4,31 +4,31 @@ import "./test.css";
 const Test = () => {
   return (
     <div className="news-feed">
-      <section class="blog-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <button class="btn btn-custom active blog-button">
+      <section calssName="blog-section">
+        <div calssName="container">
+          <div calssName="row">
+            <div calssName="col-md-8">
+              <button calssName="btn btn-custom active blog-button">
                 Lorem Ipsum
               </button>
-              <button class="btn btn-custom-reverse blog-button">
+              <button calssName="btn btn-custom-reverse blog-button">
                 Lorem Ipsum
               </button>
-              <button class="btn btn-custom-reverse blog-button">
+              <button calssName="btn btn-custom-reverse blog-button">
                 Lorem Ipsum
               </button>
-              <button class="btn btn-custom-reverse blog-button">
+              <button calssName="btn btn-custom-reverse blog-button">
                 Lorem Ipsum
               </button>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
+            <div calssName="col-md-1"></div>
+            <div calssName="col-md-3">
               <form>
-                <div class="search height d-flex justify-content-center align-items-center">
-                  <i class="fa fa-search"></i>
+                <div calssName="search height d-flex justify-content-center align-items-center">
+                  <i calssName="fa fa-search"></i>
                   <input
                     type="search"
-                    class="form-control search-box"
+                    calssName="form-control search-box"
                     placeholder="Search"
                   />
                 </div>
@@ -36,50 +36,50 @@ const Test = () => {
             </div>
           </div>
         </div>
-        <div class="container blog-main">
-          <div class="row">
-            <div class="col-md-8">
-              <div class="blog-block-container">
-                <div class="blog-block">
-                  <div class="row blog-block-row">
-                    <div class="col-md-4">
+        <div calssName="container blog-main">
+          <div calssName="row">
+            <div calssName="col-md-8">
+              <div calssName="blog-block-container">
+                <div calssName="blog-block">
+                  <div calssName="row blog-block-row">
+                    <div calssName="col-md-4">
                       <img
                         src="https://dummyimage.com/315x315/f7cd29/000.png"
                         alt="Dummy Image"
-                        class="img img-responsive blog-block-image"
+                        calssName="img img-responsive blog-block-image"
                       />
                     </div>
-                    <div class="col-md-8">
-                      <p class="blog-title">How to fix?</p>
-                      <p class="blog-sub-title">Lorem Ipsum</p>
+                    <div calssName="col-md-8">
+                      <p calssName="blog-title">How to fix?</p>
+                      <p calssName="blog-sub-title">Lorem Ipsum</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-12">
-                    <p class="blog-content">
+                <div calssName="row">
+                  <div calssName="col-md-12">
+                    <p calssName="blog-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                     </p>
                     <p>
-                      <a href="#" class="blog-read-more-link">
+                      <a href="#" calssName="blog-read-more-link">
                         Read More
                       </a>
                     </p>
-                    <p class="text-secondary">
+                    <p calssName="text-secondary">
                       July 21, 2021 &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;{" "}
                       <a href="#">100 Comments</a>
                     </p>
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <i class="fas fa-thumbs-up"></i> 200
+                <div calssName="row">
+                  <div calssName="col-md-6">
+                    <i calssName="fas fa-thumbs-up"></i> 200
                   </div>
-                  <div class="col-md-6">
-                    <div class="footer-social-info">
+                  <div calssName="col-md-6">
+                    <div calssName="footer-social-info">
                       Share: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <a
                         href="#"
@@ -87,7 +87,7 @@ const Test = () => {
                         data-placement="top"
                         title="Facebook"
                       >
-                        <i class="fab fa-facebook"></i>
+                        <i calssName="fab fa-facebook"></i>
                       </a>
                       <a
                         href="#"
@@ -95,7 +95,7 @@ const Test = () => {
                         data-placement="top"
                         title="Instagram"
                       >
-                        <i class="fab fa-instagram"></i>
+                        <i calssName="fab fa-instagram"></i>
                       </a>
                       <a
                         href="#"
@@ -103,7 +103,7 @@ const Test = () => {
                         data-placement="top"
                         title="Twitter"
                       >
-                        <i class="fab fa-twitter"></i>
+                        <i calssName="fab fa-twitter"></i>
                       </a>
                       <a
                         href="#"
@@ -111,7 +111,7 @@ const Test = () => {
                         data-placement="top"
                         title="Whatsapp"
                       >
-                        <i class="fab fa-whatsapp"></i>
+                        <i calssName="fab fa-whatsapp"></i>
                       </a>
                       <a
                         href="#"
@@ -119,54 +119,54 @@ const Test = () => {
                         data-placement="top"
                         title="Linkedin"
                       >
-                        <i class="fab fa-linkedin"></i>
+                        <i calssName="fab fa-linkedin"></i>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="blog-block-container">
-                <div class="blog-block">
-                  <div class="row blog-block-row">
-                    <div class="col-md-4">
+              <div calssName="blog-block-container">
+                <div calssName="blog-block">
+                  <div calssName="row blog-block-row">
+                    <div calssName="col-md-4">
                       <img
                         src="https://dummyimage.com/315x315/f7cd29/000.png"
                         alt="Dummy Image"
-                        class="img img-responsive blog-block-image"
+                        calssName="img img-responsive blog-block-image"
                       />
                     </div>
-                    <div class="col-md-8">
-                      <p class="blog-title">How to fix?</p>
-                      <p class="blog-sub-title">Lorem Ipsum</p>
+                    <div calssName="col-md-8">
+                      <p calssName="blog-title">How to fix?</p>
+                      <p calssName="blog-sub-title">Lorem Ipsum</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-12">
-                    <p class="blog-content">
+                <div calssName="row">
+                  <div calssName="col-md-12">
+                    <p calssName="blog-content">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                     </p>
                     <p>
-                      <a href="#" class="blog-read-more-link">
+                      <a href="#" calssName="blog-read-more-link">
                         Read More
                       </a>
                     </p>
-                    <p class="text-secondary">
+                    <p calssName="text-secondary">
                       July 21, 2021 &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;{" "}
                       <a href="#">100 Comments</a>
                     </p>
                   </div>
                 </div>
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <i class="fas fa-thumbs-up"></i> 200
+                <div calssName="row">
+                  <div calssName="col-md-6">
+                    <i calssName="fas fa-thumbs-up"></i> 200
                   </div>
-                  <div class="col-md-6">
-                    <div class="footer-social-info">
+                  <div calssName="col-md-6">
+                    <div calssName="footer-social-info">
                       Share: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <a
                         href="#"
@@ -174,7 +174,7 @@ const Test = () => {
                         data-placement="top"
                         title="Facebook"
                       >
-                        <i class="fab fa-facebook"></i>
+                        <i calssName="fab fa-facebook"></i>
                       </a>
                       <a
                         href="#"
@@ -182,7 +182,7 @@ const Test = () => {
                         data-placement="top"
                         title="Instagram"
                       >
-                        <i class="fab fa-instagram"></i>
+                        <i calssName="fab fa-instagram"></i>
                       </a>
                       <a
                         href="#"
@@ -190,7 +190,7 @@ const Test = () => {
                         data-placement="top"
                         title="Twitter"
                       >
-                        <i class="fab fa-twitter"></i>
+                        <i calssName="fab fa-twitter"></i>
                       </a>
                       <a
                         href="#"
@@ -198,7 +198,7 @@ const Test = () => {
                         data-placement="top"
                         title="Whatsapp"
                       >
-                        <i class="fab fa-whatsapp"></i>
+                        <i calssName="fab fa-whatsapp"></i>
                       </a>
                       <a
                         href="#"
@@ -206,99 +206,99 @@ const Test = () => {
                         data-placement="top"
                         title="Linkedin"
                       >
-                        <i class="fab fa-linkedin"></i>
+                        <i calssName="fab fa-linkedin"></i>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3 popular-blog">
-              <h4 class="text-center popular-blog-section-title">
+            <div calssName="col-md-1"></div>
+            <div calssName="col-md-3 popular-blog">
+              <h4 calssName="text-center popular-blog-section-title">
                 Popular Blogs
               </h4>
-              <div class="popular-blog-section">
-                <div class="blog-preview">
+              <div calssName="popular-blog-section">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>
 
-                <div class="blog-preview">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>
 
-                <div class="blog-preview">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>
 
-                <div class="blog-preview">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>
 
-                <div class="blog-preview">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>
 
-                <div class="blog-preview">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>
 
-                <div class="blog-preview">
+                <div calssName="blog-preview">
                   <div>
                     <img
                       src="https://dummyimage.com/97x97/f7cd29/000.png"
-                      class="img img-responsive"
+                      calssName="img img-responsive"
                     />
                   </div>
-                  <div class="blog-preview-content">
+                  <div calssName="blog-preview-content">
                     There are many variations of
                   </div>
                 </div>

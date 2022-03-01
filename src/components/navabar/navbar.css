@@ -61,7 +61,10 @@
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: #061930;
+  transition: all 0.3s ease-in;
+  border-bottom: 0.08rem solid #061930 ;
 }
 
 .nav > #nav-check {
