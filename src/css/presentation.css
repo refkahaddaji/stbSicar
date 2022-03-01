@@ -1,0 +1,64 @@
+.pres{
+    width: 50% ;
+    margin-left: 25%;	
+
+}
+.cadre{
+    width: 180px;
+    height: 180px;
+    background-color: #D6E4F4
+    ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+margin-left: 10%;
+width:100%
+
+
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    width:80%
+    
+    
+    }
+    p{
+        font-family: system-ui;
+        color:#191970;
+        text-align: left;
+        text-align: justify;
+        
+        
+
+    }  
+    
+    h1{
+        font-family: cursive; 
+        color:#191970;
+        text-align: left;
+        
+    }
+
+ .h5{
+     margin-top: -10px;
+     font-family: cursive;
+     color:#191970
+ }  
+ 
+ .h3{
+    margin-top: 5px;  
+    font-family: cursive; 
+    color:#191970
+ }
+ #move-up:hover{
+    background-color: #B0C4DE;
+    
+    transition: all .5s;
+    transform : translateY(-10px);
+}
