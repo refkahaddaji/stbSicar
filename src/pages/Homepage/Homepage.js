@@ -192,13 +192,7 @@ const Homepage = () => {
         <hr class="section-break-5" />
       </div>
       <section className="section-5"></section>
-      <h1>Homepage</h1>
-      <h1>Homepage</h1>
-      <h1>Homepage</h1>
-      <h1>Homepage</h1>
-      <h1>Homepage</h1>
-      <h1>Homepage</h1>
-      <h1>Homepage</h1>
+     
     </div>
   );
 };
